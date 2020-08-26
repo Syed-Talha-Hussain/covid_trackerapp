@@ -1,6 +1,6 @@
 import React from 'react';
-import {Bubble} from 'react-chartjs-2';
-import AllCountries from './AllCountries';
+// import {Bubble} from 'react-chartjs-2';
+// import AllCountries from './AllCountries';
 
 // const data = {
 //    labels: ['January', 'feb', 'mar'],
