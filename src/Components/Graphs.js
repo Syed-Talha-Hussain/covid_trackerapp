@@ -34,8 +34,8 @@ export default function Graphs(){
  
     return (
       <div>
-        <h2>Bubble Example</h2>
-        <Bubble data={api[key]} />
+        <h2>Covid-19 Graph Visualization</h2>
+        {/* <Bubble data={api[key]} /> */}
       </div>
     );
 };
