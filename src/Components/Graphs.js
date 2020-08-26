@@ -31,7 +31,6 @@ import AllCountries from './AllCountries';
 
 export default function Graphs(){
 //   displayName: 'BubbleExample',
-    <AllCountries/>
  
     return (
       <div>
