@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import NavBar from './Components/navBar'
+import InfoPanel from './Components/infoPanel';
+import FooterBar from './Components/footerBar';
+
 
 function App() {
+  const screenConfig = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <InfoPanel curentScreen={screenConfig[0]}/>
+      <FooterBar screenConfig={screenConfig}/>
     </div>
   );
 }
