@@ -32,10 +32,6 @@ jobs:
     - name: create react app
       run: npx create-react-app "covid_trackerapp"
     - name: Creating Build
-<<<<<<< HEAD
       run: yarn build
-=======
-      run: yarn build 
->>>>>>> 2e47432266e6a8084b094984ea5b532292df4042
     - name: Deploying Using Surge
       run: surge ./ covid_trackerapp.surge.sh --token ${{ secrets.SURGE_TOKEN }}
